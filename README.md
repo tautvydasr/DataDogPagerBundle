@@ -1,5 +1,7 @@
 # Pager bundle
 
+[![Build Status](https://travis-ci.org/tautvydasr/DataDogPagerBundle.svg?branch=feature%2Ftravis-setup)](https://travis-ci.org/tautvydasr/DataDogPagerBundle)
+
 This paginator is different in the following ways:
 
 - it has only one general class with around 300 lines of commented code. All the rest of the source code is

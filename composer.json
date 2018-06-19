@@ -33,7 +33,7 @@
     "doctrine/doctrine-fixtures-bundle": "^2.3",
     "sensio/framework-extra-bundle": "^3.0.9",
     "fzaninotto/faker": "~1.5",
-    "phpunit/phpunit": "^6.5"
+    "phpunit/phpunit": "~6.0.0"
   },
 
   "autoload": {
@@ -44,7 +44,9 @@
 
   "autoload-dev": {
     "psr-4": {
-      "": "example/src/"
+      "": "example/src/",
+
+      "Test\\": "tests/"
     }
   },
 

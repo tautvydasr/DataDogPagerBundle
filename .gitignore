@@ -6,5 +6,4 @@
 !example/app/cache/.gitkeep
 !example/app/logs/.gitkeep
 /composer.lock
-/phpunit.xml
 /vendor
