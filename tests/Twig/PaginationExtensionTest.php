@@ -188,6 +188,6 @@ class PaginationExtensionTest extends TestCase
     private function renderShouldBeCalled($template, array $parameters = [])
     {
         $parameters = array_merge(['pagination' => $this->pagination->reveal()], $parameters);
-        $this->twig->render("DataDogPagerBundle::$template.html.twig", $parameters)->shouldBeCalled();
+        $this->twig->render("@DataDogPager/$template.html.twig", $parameters)->shouldBeCalled();
     }
 }
